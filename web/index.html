@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#F4F5F7" id="themeColor">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="四中校园墙">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<title>四中校园墙</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <main class="screen" id="screen"></main>
+    <nav class="tabbar" id="tabbar" aria-label="主导航"></nav>
+    <button class="fab" id="fab" data-action="compose" aria-label="发布帖子">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+    </button>
+  </div>
+  <div id="layers"></div>
+  <div id="toast-root"></div>
+
+  <div class="boot" id="boot">
+    <div class="boot-logo">四中<span>校园墙</span></div>
+    <div class="boot-sub">SIZHONG CAMPUS WALL</div>
+    <div class="boot-bar"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
